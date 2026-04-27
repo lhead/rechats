@@ -12,17 +12,17 @@ Search, browse, and resume Claude Code chat sessions.
 
 ## Installation
 
-```bash
-npm install -g rechats
-```
+Download the latest release from [GitHub Releases](https://github.com/lhead/rechats/releases).
+
+For macOS:
+1. Download `Rechats-darwin-x64.zip`
+2. Extract the zip file
+3. Right-click `Rechats.app` and select "Open"
+4. Confirm to open the app
 
 ## Usage
 
-```bash
-rechats
-```
-
-This will launch the Electron GUI where you can:
+Launch the Rechats app to:
 
 1. Browse recent Claude Code chat sessions
 2. Search by keywords (press Enter to search)
@@ -40,7 +40,7 @@ This will launch the Electron GUI where you can:
 
 ## Requirements
 
-- Node.js 16+
+- macOS (x64)
 - Claude Code sessions stored in `~/.claude/projects/`
 
 ## Development
