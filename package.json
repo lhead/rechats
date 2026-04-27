@@ -1,0 +1,42 @@
+{
+  "name": "rechats",
+  "version": "0.1.0",
+  "description": "Search, browse, and resume Claude Code chat sessions",
+  "main": "dist/electron/main.js",
+  "bin": {
+    "rechats": "dist/electron/main.js"
+  },
+  "scripts": {
+    "build": "tsc && node build.js",
+    "dev": "npm run build && electron .",
+    "start": "electron ."
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "chat",
+    "history",
+    "session",
+    "electron",
+    "search"
+  ],
+  "author": "lhead",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhead/rechats.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "electron": "^28.0.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
