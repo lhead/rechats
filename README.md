@@ -14,12 +14,6 @@ Search, browse, and resume Claude Code chat sessions.
 
 Download the latest release from [GitHub Releases](https://github.com/lhead/rechats/releases).
 
-For macOS:
-1. Download `Rechats-darwin-x64.zip`
-2. Extract the zip file
-3. Right-click `Rechats.app` and select "Open"
-4. Confirm to open the app
-
 ## Usage
 
 Launch the Rechats app to:
@@ -40,7 +34,7 @@ Launch the Rechats app to:
 
 ## Requirements
 
-- macOS (x64)
+- macOS
 - Claude Code sessions stored in `~/.claude/projects/`
 
 ## Development
